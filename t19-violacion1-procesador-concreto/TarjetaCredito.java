@@ -1,0 +1,5 @@
+public class TarjetaCredito {
+    public void procesarPago(double monto) {
+        System.out.println("Procesando pago con tarjeta de crédito: $" + monto);
+    }
+}
