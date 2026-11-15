@@ -1,0 +1,11 @@
+public class BancaMovil implements Transferible, PagoFacturas {
+    @Override
+    public void transferir(String cuentaDestino, double monto) {
+        System.out.println("Banca móvil: transfiriendo $" + monto + " a " + cuentaDestino);
+    }
+
+    @Override
+    public void pagarFactura(String factura, double monto) {
+        System.out.println("Banca móvil: pagando factura " + factura + " por $" + monto);
+    }
+}
