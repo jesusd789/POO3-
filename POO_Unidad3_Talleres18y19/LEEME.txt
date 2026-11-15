@@ -1,0 +1,11 @@
+POO - Unidad 3: Talleres 18 (ISP) y 19 (DIP)
+Cada carpeta es un ejemplo o ejercicio independiente.
+
+Como ejecutar una carpeta (Java 17 o superior):
+    cd t19-ejemplo1-pagos
+    javac *.java
+    java Main
+
+En los ejercicios del Taller 18 las subcarpetas antes/ (interfaz grande, viola ISP)
+y despues/ (interfaces segregadas) se compilan y ejecutan por separado.
+Las carpetas *-violacion* muestran el mal diseno a proposito: compilan, pero rompen el principio.
